@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 20px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.portfolio h2, .contact h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  width: 280px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.socials {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #555;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #999;
+}
